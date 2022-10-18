@@ -1,4 +1,4 @@
-# Homework 1
+# Homework #1
 def set1(a: str = 'Valeriy', b: str = 'Vova', c: str = 'Sergey', d: str = 'Pasha'):
     my_list = [a] + [b[::-1]] + [c] + [d[::-1]]
     return my_list
