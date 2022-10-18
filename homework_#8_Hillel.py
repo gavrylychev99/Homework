@@ -1,17 +1,7 @@
-# Homework #1
-def set1(a: str = 'Valeriy', b: str = 'Vova', c: str = 'Sergey', d: str = 'Pasha'):
-    my_list = [a] + [b[::-1]] + [c] + [d[::-1]]
-    return my_list
-
-
-new_list = set1()
+from Mode_for_Homework import new_list
 print(new_list)
 
 # Homework #2
-
-
-
-
 
 # my_list1 = []
 # for element in my_list:
