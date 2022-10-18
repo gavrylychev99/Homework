@@ -1,19 +1,25 @@
-# Функции в отдельном модуле, проверка работоспосмобности в main
-# 1. Написать функцию которой передается один параметр - список строк my_list.
-# Функция возвращает новый список в котором содержаться
-# элементы из my_list по следующему правилу:
-# Если строка стоит на нечетном месте в my_list, то ее заменить на
-# перевернутую строку. "qwe" на "ewq".
-# Если на четном - оставить без изменения.
-
 # Homework #1
-# my_list = ['Alisa', 'Andrey', 'Vova','Nikita','Alexandr']
-
-def set1(a: str = 'Alisa', b: str = 'Andrey', c: str = 'Vova', d: str = 'Nikita', e: str = 'Alexandr'):
-    my_list =
-
+def set1(a: str = 'Valeriy', b: str = 'Vova', c: str = 'Sergey', d: str = 'Pasha'):
+    my_list = [a] + [b[::-1]] + [c] + [d[::-1]]
+    return my_list
 
 
+new_list = set1()
+print(new_list)
+
+# Homework #2
+
+
+
+
+
+# my_list1 = []
+# for element in my_list:
+#     if element == my_list[1::2]:
+#         my_list1 = my_list[::-1]
+#     elif element == my_list[::2]:
+#         my_list1 = element
+# return my_list1
 # def create_point(x: float = 1, y: float = 10, z: float = 9):
 #     point = {'x': x,
 #              'y': y}
